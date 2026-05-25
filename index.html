@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>flock off</title>
+
+  <link rel="stylesheet" href="styles/variables.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+</head>
+<body>
+
+  <header>
+    <h1>flock off</h1>
+  </header>
+
+  <main class="homepage">
+
+    <div class="map"></div>
+
+    <aside class="controls">
+      <div class="controls-inner">
+
+        <div class="instruction-block">
+          <div>
+            <h2>Set your location</h2>
+          </div>
+        </div>
+
+        <div class="coords-display" id="coords-display">
+          <span class="coords-label">coordinates: </span>
+          <span class="coords-value" id="coords-value">wip</span>
+        </div>
+
+        <div class="button-group">
+          <button class="btn btn-geo" id="btn-geo">
+            📍 Use my location
+          </button>
+
+          <button class="btn btn-poster" id="btn-poster" disabled>
+            ✨ Generate poster
+          </button>
+        </div>
+
+      </div>
+    </aside>
+
+  </main>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

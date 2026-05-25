@@ -1,0 +1,19 @@
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+h1, h2 {
+  margin: var(--radius) 0;
+}
+
+.homepage {
+  flex-direction: column;
+}
+
+.controls-inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--radius);
+}

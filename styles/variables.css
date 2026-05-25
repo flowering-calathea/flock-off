@@ -1,0 +1,22 @@
+:root {
+  /* palette */
+  --bg:          #0e0e10;
+  --surface:     #18181c;
+  --surface-2:   #222228;
+  --border:      #2e2e38;
+  --accent:      #e8ff47;
+  --accent-dim:  #b8cc2a;
+  --text:        #f0f0ee;
+  --text-muted:  #7a7a8a;
+  --nope:        #ff5a5a;
+  --cool:        #951df8;
+ 
+  /* type */
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+ 
+  /* space */
+  --gap:    1.5rem;
+  --radius: 0.5rem;
+}
+ 
